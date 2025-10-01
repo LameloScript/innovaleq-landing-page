@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ServicesProps } from '../types';
 
@@ -82,10 +83,11 @@ export default function Services({ minitext, heading, subtitle, services }: Serv
                 viewport={{ once: true }}
               >
                 <div className="relative w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden bg-gradient-to-br from-neutral-700 to-neutral-800">
-                  <img
+                  <Image
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
               </motion.div>

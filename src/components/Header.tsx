@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 
 
@@ -105,21 +106,21 @@ c130 -81 194 -195 196 -349 1 -64 -4 -100 -20 -145 -48 -135 -108 -205 -219
 
           {/* Navigation Menu */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="/" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
+            <Link href="/" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
               Accueil
-            </a>
-            <a href="/#about" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
+            </Link>
+            <Link href="/#about" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
               À propos
-            </a>
-            <a href="/#services" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
+            </Link>
+            <Link href="/#services" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
               Services
-            </a>
-            <a href="/#portfolio" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
+            </Link>
+            <Link href="/#portfolio" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
               Nos projets
-            </a>
-            <a href="/#contact" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
+            </Link>
+            <Link href="/#contact" className="text-white/90 hover:text-white font-medium transition-colors text-sm">
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -253,41 +254,41 @@ c130 -81 194 -195 196 -349 1 -64 -4 -100 -20 -145 -48 -135 -108 -205 -219
           {/* Navigation Menu */}
           <nav className="flex-1 py-8">
             <div className="space-y-6 px-6">
-              <a
+              <Link
                 href="/"
                 className="block text-white/90 hover:text-white font-medium text-lg transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Accueil
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#about"
                 className="block text-white/90 hover:text-white font-medium text-lg transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 À propos
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#services"
                 className="block text-white/90 hover:text-white font-medium text-lg transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#portfolio"
                 className="block text-white/90 hover:text-white font-medium text-lg transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Nos projets
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#contact"
                 className="block text-white/90 hover:text-white font-medium text-lg transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </nav>
 

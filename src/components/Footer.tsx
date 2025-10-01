@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import { FooterProps } from '../types';
 
 export default function Footer({ logo, contact, description, sections, bottomLinks }: FooterProps) {
@@ -11,7 +12,7 @@ export default function Footer({ logo, contact, description, sections, bottomLin
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
             {/* Logo */}
             <div className="flex items-center">
-              <img src={logo.src} alt={logo.alt} className="h-28 w-auto" />
+              <Image src={logo.src} alt={logo.alt} width={112} height={112} className="h-28 w-auto" />
             </div>
 
             {/* Contact info */}
