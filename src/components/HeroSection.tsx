@@ -40,6 +40,7 @@ export default function HeroSection() {
                 src="/web-mobile.avif"
                 alt="Innovation Background"
                 fill
+                sizes="100vw"
                 className="object-cover"
                 priority
               />

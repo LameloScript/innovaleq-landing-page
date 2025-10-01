@@ -75,6 +75,7 @@ const AppShowcase: React.FC<AppShowcaseProps> = ({ title, subtitle, apps }) => {
                       src={app.logo}
                       alt={app.name}
                       fill
+                      sizes="128px"
                       className="object-contain"
                     />
                   </div>
@@ -126,6 +127,7 @@ const AppShowcase: React.FC<AppShowcaseProps> = ({ title, subtitle, apps }) => {
                   src={selectedApp.logo}
                   alt={selectedApp.name}
                   fill
+                  sizes="160px"
                   className="object-contain"
                 />
               </div>

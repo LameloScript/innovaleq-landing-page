@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CTASection() {
   return (
     <section className="relative py-20 px-20 overflow-hidden bg-black">
@@ -28,7 +30,7 @@ export default function CTASection() {
 
           <div className="mt-6 md:mt-8">
             <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center">
-              <button className="group bg-white text-black px-8 py-3 md:px-12 md:py-4 text-sm md:text-lg font-semibold hover:bg-white/90 transition-all duration-300 border-2 border-white flex items-center gap-2 md:gap-3" style={{fontFamily: 'Poppins, sans-serif'}}>
+              <Link href="/#contact" className="group bg-white text-black px-8 py-3 md:px-12 md:py-4 text-sm md:text-lg font-semibold hover:bg-white/90 transition-all duration-300 border-2 border-white flex items-center gap-2 md:gap-3" style={{fontFamily: 'Poppins, sans-serif'}}>
                 Démarrer un projet
                 <svg
                   className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform duration-300"
@@ -38,9 +40,9 @@ export default function CTASection() {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-              </button>
+              </Link>
 
-              <button className="group border-2 border-white text-white px-8 py-3 md:px-12 md:py-4 text-sm md:text-lg font-semibold hover:bg-white hover:text-black transition-all duration-300 flex items-center gap-2 md:gap-3" style={{fontFamily: 'Poppins, sans-serif'}}>
+              <Link href="/#contact" className="group border-2 border-white text-white px-8 py-3 md:px-12 md:py-4 text-sm md:text-lg font-semibold hover:bg-white hover:text-black transition-all duration-300 flex items-center gap-2 md:gap-3" style={{fontFamily: 'Poppins, sans-serif'}}>
                 Nous contacter
                 <svg
                   className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform duration-300"
@@ -50,7 +52,7 @@ export default function CTASection() {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>

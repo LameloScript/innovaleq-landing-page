@@ -87,7 +87,9 @@ export default function Services({ minitext, heading, subtitle, services }: Serv
                     src={service.image}
                     alt={service.title}
                     fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover"
+                    priority={false}
                   />
                 </div>
               </motion.div>
