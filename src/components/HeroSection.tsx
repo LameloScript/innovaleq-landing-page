@@ -36,14 +36,7 @@ export default function HeroSection() {
                 delay: 0.2
               }}
             >
-              <Image
-                src="/web-mobile.avif"
-                alt="Innovation Background"
-                fill
-                sizes="100vw"
-                className="object-cover"
-                priority
-              />
+              
             </motion.div>
 
             {/* Main Title */}
