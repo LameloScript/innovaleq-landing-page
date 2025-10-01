@@ -1,0 +1,85 @@
+/* Animations modernes 2025 pour les pages légales */
+
+@layer base {
+  :root {
+    --animation-duration-slow: 1000ms;
+    --animation-duration-medium: 600ms;
+    --animation-duration-fast: 400ms;
+    --easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+    --easing-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+/* Animation de reveal avec effet kinetic typography */
+@keyframes text-reveal {
+  from {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    opacity: 0;
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+  }
+}
+
+/* Effet de parallaxe scroll */
+@scroll-timeline hero-parallax-timeline {
+  source: selector(".hero-section");
+  orientation: block;
+  start: contain 0%;
+  end: contain 100%;
+}
+
+.hero-section-image {
+  view-timeline-name: hero-parallax-timeline;
+  view-timeline-axis: block;
+  animation-timeline: hero-parallax-timeline;
+  animation-name: parallax-scroll;
+  animation-fill-mode: both;
+  will-change: transform;
+}
+
+@keyframes parallax-scroll {
+  from { transform: translateY(0) scale(1); }
+  to { transform: translateY(10%) scale(1.1); }
+}
+
+/* Overlay fade-in avec scroll */
+.hero-section-overlay {
+  view-timeline-name: hero-parallax-timeline;
+  view-timeline-axis: block;
+  animation-timeline: hero-parallax-timeline;
+  animation-name: overlay-fade;
+  animation-fill-mode: both;
+}
+
+@keyframes overlay-fade {
+  from { opacity: 0; }
+  to { opacity: 0.6; }
+}
+
+/* Animation de titre avec reveal */
+.hero-title {
+  animation: text-reveal var(--animation-duration-slow) var(--easing-standard) backwards;
+  animation-delay: calc(var(--animation-duration-slow) * 0.3);
+}
+
+/* Micro-interactions hover */
+.hero-section {
+  transition: all var(--animation-duration-medium) var(--easing-standard);
+}
+
+.hero-section:hover {
+  transform: scale(1.01);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Accessibilité réduction du mouvement */
+@media (prefers-reduced-motion: reduce) {
+  .hero-section-image,
+  .hero-section-overlay,
+  .hero-title {
+    animation: none;
+    transform: none;
+  }
+}
