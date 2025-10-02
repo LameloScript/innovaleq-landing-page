@@ -15,43 +15,45 @@ export default function AboutUs() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-6 md:mb-8 leading-tight" style={{fontFamily: 'Bebas Neue, cursive'}}>
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-[#f6a42b] mb-6 md:mb-8 leading-tight" style={{fontFamily: 'Bebas Neue, cursive'}}>
               À PROPOS DE NOUS
             </h2>
             <div className="space-y-4 md:space-y-6 text-white/80" style={{fontFamily: 'Poppins, sans-serif'}}>
               <p className="text-sm md:text-lg leading-relaxed">
-                Nous sommes une équipe passionnée de créateurs numériques dédiée à transformer vos idées en solutions innovantes.
-                Notre expertise couvre le développement web et mobile, le design graphique, la cybersécurité et le conseil stratégique.
+                InnovatelQ est un écosystème de startup tech africaines fondé pour créer et accompagner des solutions digitales à fort impact local, avec une approche centrée sur l'utilisateur africain.
               </p>
 
               <p className="text-sm md:text-lg leading-relaxed">
-                Notre mission : donner vie à vos projets avec des solutions sur mesure qui dépassent vos attentes
-                et propulsent votre activité vers de nouveaux horizons.
+                Nous sommes engagés dans la transformation numérique du continent et nous positionnons comme un moteur d'innovation, de développement durable et d'autonomisation digitale, en particulier dans des secteurs clés comme la santé, la logistique, la consommation et les services de proximité.
+              </p>
+
+              <p className="text-sm md:text-lg leading-relaxed">
+                Implantée stratégiquement à <span className="font-semibold text-white">Dakar (Sénégal)</span> et <span className="font-semibold text-white">Abidjan (Côte d'Ivoire)</span>, nous couvrons les marchés ouest-africains pour mieux comprendre les besoins locaux et tisser des partenariats solides dans l'espace UEMOA et au-delà.
               </p>
             </div>
 
             {/* Values as Bullet Points */}
             <div className="mt-6 md:mt-8">
-              <h3 className="text-xl md:text-2xl font-bold text-white mb-4 md:mb-6" style={{fontFamily: 'Bebas Neue, cursive'}}>
+              <h3 className="text-xl md:text-2xl font-bold text-[#f6a42b] mb-4 md:mb-6" style={{fontFamily: 'Bebas Neue, cursive'}}>
                 NOS VALEURS
               </h3>
               <ul className="space-y-3 md:space-y-4 text-white/80 text-sm md:text-base" style={{fontFamily: 'Poppins, sans-serif'}}>
                 <li className="flex items-start">
-                  <div className="w-2 h-2 bg-white rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-[#f6a42b] rounded-full mt-2 mr-4 flex-shrink-0"></div>
                   <div>
-                    <span className="font-semibold text-white">Innovation :</span> Nous restons à la pointe des technologies pour offrir des solutions avant-gardistes et performantes.
+                    <span className="font-semibold text-white">Digitaliser</span> les usages quotidiens en Afrique
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="w-2 h-2 bg-white rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-[#f6a42b] rounded-full mt-2 mr-4 flex-shrink-0"></div>
                   <div>
-                    <span className="font-semibold text-white">Qualité :</span> Chaque projet est réalisé avec le plus grand soin et selon les standards les plus élevés de l&apos;industrie.
+                    <span className="font-semibold text-white">Favoriser</span> l'autonomie technologique locale
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <div className="w-2 h-2 bg-white rounded-full mt-2 mr-4 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-[#f6a42b] rounded-full mt-2 mr-4 flex-shrink-0"></div>
                   <div>
-                    <span className="font-semibold text-white">Collaboration :</span> Nous travaillons en étroite collaboration avec nos clients pour garantir leur pleine satisfaction.
+                    <span className="font-semibold text-white">Créer</span> des services accessibles, rapides et durables
                   </div>
                 </li>
               </ul>
@@ -85,7 +87,7 @@ export default function AboutUs() {
         >
           <div className="flex flex-col items-center text-center mb-8 md:mb-12">
 
-            <h3 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-white" style={{fontFamily: 'Bebas Neue, cursive'}}>
+            <h3 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-[#f6a42b]" style={{fontFamily: 'Bebas Neue, cursive'}}>
               NOS CHIFFRES CLÉS
             </h3>
           </div>

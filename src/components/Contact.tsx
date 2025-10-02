@@ -63,7 +63,7 @@ export default function Contact({ minitext, heading, subtitle, contactInfo, form
             </span>
           </div>
 
-          <h2 className="text-2xl md:text-5xl lg:text-6xl font-black text-white mb-6 md:mb-8 leading-tight" style={{fontFamily: 'Bebas Neue, cursive'}}>
+          <h2 className="text-2xl md:text-5xl lg:text-6xl font-black text-[#f6a42b] mb-6 md:mb-8 leading-tight" style={{fontFamily: 'Bebas Neue, cursive'}}>
             {heading}
           </h2>
 
@@ -75,7 +75,7 @@ export default function Contact({ minitext, heading, subtitle, contactInfo, form
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-start">
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl md:text-3xl font-bold text-white mb-6 md:mb-8" style={{fontFamily: 'Bebas Neue, cursive'}}>
+            <h3 className="text-xl md:text-3xl font-bold text-[#f6a42b] mb-6 md:mb-8" style={{fontFamily: 'Bebas Neue, cursive'}}>
               INFORMATIONS DE CONTACT
             </h3>
 
@@ -123,7 +123,7 @@ export default function Contact({ minitext, heading, subtitle, contactInfo, form
 
           {/* Contact Form */}
           <div className="bg-white/5 border border-white/20 rounded-2xl p-6 md:p-8 backdrop-blur-sm">
-            <h3 className="text-xl md:text-3xl font-bold text-white mb-6 md:mb-8" style={{fontFamily: 'Bebas Neue, cursive'}}>
+            <h3 className="text-xl md:text-3xl font-bold text-[#f6a42b] mb-6 md:mb-8" style={{fontFamily: 'Bebas Neue, cursive'}}>
               {form.title}
             </h3>
 
@@ -216,7 +216,7 @@ export default function Contact({ minitext, heading, subtitle, contactInfo, form
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-white text-black px-6 py-3 md:px-8 md:py-4 text-sm md:text-lg font-semibold hover:bg-white/90 transition-all duration-300 rounded-lg flex items-center justify-center gap-2 md:gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-[#f6a42b] text-white px-6 py-3 md:px-8 md:py-4 text-sm md:text-lg font-semibold hover:bg-[#e59422] transition-all duration-300 rounded-lg flex items-center justify-center gap-2 md:gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
                 style={{fontFamily: 'Poppins, sans-serif'}}
               >
                 {isSubmitting ? 'Envoi en cours...' : 'Envoyer le message'}

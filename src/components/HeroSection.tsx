@@ -46,7 +46,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-white text-center leading-tight tracking-tight" style={{fontFamily: 'Bebas Neue, cursive'}}>
+              <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-[#f6a42b] text-center leading-tight tracking-tight" style={{fontFamily: 'Bebas Neue, cursive'}}>
                 CRÉER. DÉVELOPPER. INNOVER
               </h1>
             </motion.div>

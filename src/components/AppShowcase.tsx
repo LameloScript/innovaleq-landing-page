@@ -79,7 +79,7 @@ const AppShowcase: React.FC<AppShowcaseProps> = ({ title, subtitle, apps }) => {
                       className="object-contain"
                     />
                   </div>
-                  <div className="text-sm md:text-base font-semibold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
+                  <div className="text-sm md:text-base font-semibold text-gray-800 group-hover:text-[#f6a42b] transition-colors duration-300">
                     {app.name}
                   </div>
                 </div>
@@ -143,7 +143,7 @@ const AppShowcase: React.FC<AppShowcaseProps> = ({ title, subtitle, apps }) => {
                 href={selectedApp.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl transition-colors duration-300 inline-flex items-center gap-2"
+                className="bg-[#f6a42b] hover:bg-[#e59422] text-white font-semibold px-8 py-4 rounded-xl transition-colors duration-300 inline-flex items-center gap-2"
               >
                 Accéder au produit
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

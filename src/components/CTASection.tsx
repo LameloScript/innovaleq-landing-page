@@ -30,7 +30,7 @@ export default function CTASection() {
 
           <div className="mt-6 md:mt-8">
             <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center">
-              <Link href="/#contact" className="group bg-white text-black px-8 py-3 md:px-12 md:py-4 text-sm md:text-lg font-semibold hover:bg-white/90 transition-all duration-300 border-2 border-white flex items-center gap-2 md:gap-3" style={{fontFamily: 'Poppins, sans-serif'}}>
+              <Link href="/#contact" className="group bg-[#f6a42b] text-white px-8 py-3 md:px-12 md:py-4 text-sm md:text-lg font-semibold hover:bg-[#e59422] transition-all duration-300 border-2 border-[#f6a42b] flex items-center gap-2 md:gap-3" style={{fontFamily: 'Poppins, sans-serif'}}>
                 Démarrer un projet
                 <svg
                   className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform duration-300"
@@ -42,7 +42,7 @@ export default function CTASection() {
                 </svg>
               </Link>
 
-              <Link href="/#contact" className="group border-2 border-white text-white px-8 py-3 md:px-12 md:py-4 text-sm md:text-lg font-semibold hover:bg-white hover:text-black transition-all duration-300 flex items-center gap-2 md:gap-3" style={{fontFamily: 'Poppins, sans-serif'}}>
+              <Link href="/#contact" className="group border-2 border-[#f6a42b] text-[#f6a42b] px-8 py-3 md:px-12 md:py-4 text-sm md:text-lg font-semibold hover:bg-[#f6a42b] hover:text-white transition-all duration-300 flex items-center gap-2 md:gap-3" style={{fontFamily: 'Poppins, sans-serif'}}>
                 Nous contacter
                 <svg
                   className="w-4 h-4 md:w-5 md:h-5 group-hover:translate-x-1 transition-transform duration-300"

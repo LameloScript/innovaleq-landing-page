@@ -19,7 +19,7 @@ export default function Header() {
               viewBox="0 0 1024 1024"
               className="rounded-lg"
             >
-              <g transform="translate(0,1024) scale(0.1,-0.1)" fill="white">
+              <g transform="translate(0,1024) scale(0.1,-0.1)" fill="#f6a42b">
                 <path d="M0 5120 l0 -5120 5120 0 5120 0 0 5120 0 5120 -5120 0 -5120 0 0
 -5120z m3951 3689 c66 -31 109 -82 109 -128 0 -36 -26 -81 -46 -81 -8 0 -14
 -4 -14 -9 0 -35 -242 -39 -350 -6 -97 30 -160 63 -170 91 -18 47 -12 84 19

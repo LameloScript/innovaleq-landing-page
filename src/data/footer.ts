@@ -9,7 +9,7 @@ export const footerData: FooterProps = {
     phone: "+225 07 20 14 04 68",
     email: "Contact@innovatelq.sn"
   },
-  description: "Experts en développement web, mobile et cybersécurité pour votre transformation digitale.",
+  description: "Un écosystème de startup tech africaines créant des solutions digitales à fort impact local pour la transformation numérique du continent.",
   sections: [
     {
       title: "Navigation",
@@ -22,10 +22,9 @@ export const footerData: FooterProps = {
     {
       title: "Suivez-nous",
       links: [
-        { href: "#", label: "LinkedIn" },
-        { href: "#", label: "Instagram" },
-        { href: "#", label: "Twitter" },
-        { href: "#", label: "GitHub" }
+        { href: "https://www.linkedin.com/company/innovatelq/", label: "LinkedIn" },
+        { href: "https://www.instagram.com/innovatelq_africa/profilecard/?igsh=YWRzZ3BtNDZuZmRk", label: "Instagram" },
+        { href: "https://www.facebook.com/share/1F9DBS7iYC/?mibextid=wwXIfr", label: "Facebook" }
       ]
     },
     {

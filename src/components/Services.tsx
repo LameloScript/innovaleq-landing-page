@@ -21,7 +21,7 @@ export default function Services({ minitext, heading, subtitle, services }: Serv
             </span>
           </div>
           <div className="mb-6 md:mb-8">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-white mb-4 md:mb-6" style={{fontFamily: 'Bebas Neue, cursive'}}>
+            <h2 className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-[#f6a42b] mb-4 md:mb-6" style={{fontFamily: 'Bebas Neue, cursive'}}>
               {heading}
             </h2>
             <p className="text-white/70 text-sm md:text-base max-w-3xl mx-auto leading-relaxed" style={{fontFamily: 'Poppins, sans-serif'}}>
@@ -51,7 +51,7 @@ export default function Services({ minitext, heading, subtitle, services }: Serv
                   {service.category}
                 </span>
 
-                <h3 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white leading-tight" style={{fontFamily: 'Bebas Neue, cursive'}}>
+                <h3 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#f6a42b] leading-tight" style={{fontFamily: 'Bebas Neue, cursive'}}>
                   {service.title}
                 </h3>
 
@@ -62,8 +62,8 @@ export default function Services({ minitext, heading, subtitle, services }: Serv
                 <div className="space-y-3 md:space-y-4 pt-2 md:pt-4">
                   {service.features.map((feature, featureIndex) => (
                     <div key={featureIndex} className="flex items-start">
-                      <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-red-900 flex items-center justify-center mr-3 md:mr-4 mt-1 flex-shrink-0">
-                        <svg className="w-2.5 h-2.5 md:w-3 md:h-3 text-white-400" fill="currentColor" viewBox="0 0 20 20">
+                      <div className="w-5 h-5 md:w-6 md:h-6 rounded-full bg-[#f6a42b] flex items-center justify-center mr-3 md:mr-4 mt-1 flex-shrink-0">
+                        <svg className="w-2.5 h-2.5 md:w-3 md:h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
