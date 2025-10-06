@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import LegalSection from '@/components/LegalSection';
 import LegalHeroSection from '@/components/LegalHeroSection';
 import { conditionsGenerales } from '@/data/legalContent';
-import { Metadata } from 'next';
 
 export default function ConditionsGenerales() {
   return (

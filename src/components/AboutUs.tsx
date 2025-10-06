@@ -20,15 +20,15 @@ export default function AboutUs() {
             </h2>
             <div className="space-y-4 md:space-y-6 text-white/80" style={{fontFamily: 'Poppins, sans-serif'}}>
               <p className="text-sm md:text-lg leading-relaxed">
-                InnovatelQ est un écosystème de startup tech africaines fondé pour créer et accompagner des solutions digitales à fort impact local, avec une approche centrée sur l'utilisateur africain.
+                InnovatelQ est un écosystème de startup tech africaines fondé pour créer et accompagner des solutions digitales à fort impact local, avec une approche centrée sur l&apos;utilisateur africain.
               </p>
 
               <p className="text-sm md:text-lg leading-relaxed">
-                Nous sommes engagés dans la transformation numérique du continent et nous positionnons comme un moteur d'innovation, de développement durable et d'autonomisation digitale, en particulier dans des secteurs clés comme la santé, la logistique, la consommation et les services de proximité.
+                Nous sommes engagés dans la transformation numérique du continent et nous positionnons comme un moteur d&apos;innovation, de développement durable et d&apos;autonomisation digitale, en particulier dans des secteurs clés comme la santé, la logistique, la consommation et les services de proximité.
               </p>
 
               <p className="text-sm md:text-lg leading-relaxed">
-                Implantée stratégiquement à <span className="font-semibold text-white">Dakar (Sénégal)</span> et <span className="font-semibold text-white">Abidjan (Côte d'Ivoire)</span>, nous couvrons les marchés ouest-africains pour mieux comprendre les besoins locaux et tisser des partenariats solides dans l'espace UEMOA et au-delà.
+                Implantée stratégiquement à <span className="font-semibold text-white">Dakar (Sénégal)</span> et <span className="font-semibold text-white">Abidjan (Côte d&apos;Ivoire)</span>, nous couvrons les marchés ouest-africains pour mieux comprendre les besoins locaux et tisser des partenariats solides dans l&apos;espace UEMOA et au-delà.
               </p>
             </div>
 
@@ -47,7 +47,7 @@ export default function AboutUs() {
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-[#f6a42b] rounded-full mt-2 mr-4 flex-shrink-0"></div>
                   <div>
-                    <span className="font-semibold text-white">Favoriser</span> l'autonomie technologique locale
+                    <span className="font-semibold text-white">Favoriser</span> l&apos;autonomie technologique locale
                   </div>
                 </li>
                 <li className="flex items-start">

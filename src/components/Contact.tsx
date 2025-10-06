@@ -38,7 +38,7 @@ export default function Contact({ minitext, heading, subtitle, contactInfo, form
         setSubmitStatus('error');
         setErrorMessage(data.error || 'Une erreur est survenue');
       }
-    } catch (error) {
+    } catch {
       setSubmitStatus('error');
       setErrorMessage('Erreur de connexion au serveur');
     } finally {
