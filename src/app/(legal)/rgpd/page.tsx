@@ -10,7 +10,7 @@ export default function RGPD() {
     <div>
       <LegalHeroSection
         title="RGPD"
-        subtitle="Règlement Général sur la Protection des Données"
+        subtitle="Règlement Général sur la Protection des Donnees"
         lastUpdated={rgpdConformite.lastUpdated}
       />
 
